@@ -1,11 +1,11 @@
 #!/bin/bash
 
-#sudo apt install squashfs-tools
+sudo apt install squashfs-tools
 
 mkdir -p ~/temp
 cd ~/temp
 echo "正在下载supersu"
-#wget http://supersuroot.org/downloads/SuperSU-v2.82-201705271822.zip
+wget http://supersuroot.org/downloads/SuperSU-v2.82-201705271822.zip
 cd ..
 mkdir -p ~/temp/work/dabao/extract/DEBIAN
 echo "正在解压supersu" 
@@ -13,7 +13,7 @@ unzip ~/temp/SuperSU-v2.82-201705271822.zip -d ~/temp/work/su
 WORKDIR=~/temp/work
 cd "$WORKDIR" 
 echo "正在下载uengine-android-image"
-#apt download uengine-android-image
+apt download uengine-android-image
 echo "正在解压uengine-android-image" 
 cd dabao
 dpkg-deb -x $WORKDIR/uengine-android-image*.deb extract/
