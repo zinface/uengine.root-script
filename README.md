@@ -1,7 +1,10 @@
 # UEngine 安卓容器 root 计划
 
 
-1. 执行 `./root-uengine.sh` 即可开始获取制作临时软件包
+1. 获取脚本:\
+    `wget https://gitee.com/zinface/uengine.root-script/raw/main/root-uengine.sh`
+
+2. 执行 `bash ./root-uengine.sh` 即可开始获取制作临时软件包
     ```sh
     # 1. 进入临时工作目录
     # 2. 安装 squashfs-tools 
