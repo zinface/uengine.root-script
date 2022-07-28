@@ -1,4 +1,4 @@
-# UEngnine 安卓容器 root 计划
+# UEngine 安卓容器 root 计划
 
 
 1. 执行 `./root-uengine.sh` 即可开始获取制作临时软件包
